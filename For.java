@@ -1,11 +1,12 @@
 //繰り返し分 for
+//カウンタ変数はなんでもいいが、基本的にiを使う
 
 
 public class For {
   public static void main(String[] args) {
       String greeting = "Hello paiza";
 
-      for (int i = 0; i < 5; i++) {  //5の部分は回数
+      for (int i = 0; i < 5; i++) {  //iは0から始まり、5より小さいうちは繰り返し処理をする、i++で繰り返し処理をする度に+1をしていく
           System.out.println(greeting);
       }
   }
