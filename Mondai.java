@@ -1,13 +1,12 @@
+import java.util.*;
 
 public class Mondai {
     public static void main(String[] args) {
-        int x = 2;
-        x *= 2;
-        System.out.println(x);
-        x *= 3;
-        System.out.println(x);
-        x *= 4;
-        System.out.println(x);
-        
-    }    
+        Scanner scan = new Scanner(System.in);
+        int number = scan.nextInt();
+        for (int i = 2; i <= 7; i++) {
+            x*= i;
+            System.out.println(x);
+        }
+    }
 }
