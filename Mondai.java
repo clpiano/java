@@ -1,14 +1,13 @@
-//値を
 
 public class Mondai {
     public static void main(String[] args) {
-        int x = 3;
-        int y = 7;
-        int t = x;
+        int x = 2;
+        x *= 2;
+        System.out.println(x);
+        x *= 3;
+        System.out.println(x);
+        x *= 4;
+        System.out.println(x);
         
-        t = x;
-        x = y;
-        y = t;
-        System.out.println("x=" + x + ",y=" + y);
     }    
 }
