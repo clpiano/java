@@ -1,6 +1,8 @@
 //繰り返し分 for
 //カウンタ変数はなんでもいいが、基本的にiを使う
-
+// for (初期化式; 条件式; 変化式) {
+  //ブロック(繰り返し処理)
+//}
 
 public class For {
   public static void main(String[] args) {

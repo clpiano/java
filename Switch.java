@@ -8,7 +8,7 @@ public class Switch {
     public static void main(String[] args) {
         int val = 2;
         switch (val) {
-        case 3:
+        case 3:  //文字列の場合は""をつける
             System.out.println("よくできました！");
             break;
         case 2:
