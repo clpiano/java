@@ -2,7 +2,7 @@
 //do {
   //ブロック(繰り返し処理)
 //} while(条件式);
-//まずブロックの処理を実行した後、条件式を
+//まずブロックの処理を実行した後、条件式を評価
 
 public class DoWhile {
     public static void main(String[] args) {
