@@ -6,6 +6,6 @@ public class Various {
             sum += number[i];
             System.out.println(sum);
         }
-//
+
     }
 }

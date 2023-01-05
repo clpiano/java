@@ -5,8 +5,8 @@ public class Mondai {
         Scanner scan = new Scanner(System.in);
         int number = scan.nextInt();
         for (int i = 2; i <= 7; i++) {
-            x*= i;
-            System.out.println(x);
+            number *= i;
+            System.out.println(number);
         }
     }
 }
