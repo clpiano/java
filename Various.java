@@ -14,10 +14,12 @@ public class Various {
         for (int i = 11; i < number.length; i++) {
             number[i] += 5;
             if (number[i] % 2 == 0) {
-                
-                
-                System.out.print(number[i] + ",");
-                
+
+                if (number[i] == 24) {
+                    System.out.print(number[i]);
+                } else {
+                    System.out.print(number[i] + ",");
+                }
             }
         }
     }
