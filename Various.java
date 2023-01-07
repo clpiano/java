@@ -7,14 +7,17 @@ public class Various {
             number[i] += 5;
             if (number[i] % 2 != 0) {
 
-                System.out.println(number[i] + ",");
+                System.out.print(number[i] + ",");
 
             }
         }
         for (int i = 11; i < number.length; i++) {
             number[i] += 5;
-            if(number[i] % 2 == 0) {
-                System.out.println(number[i] + ",");
+            if (number[i] % 2 == 0) {
+                
+                
+                System.out.print(number[i] + ",");
+                
             }
         }
     }
